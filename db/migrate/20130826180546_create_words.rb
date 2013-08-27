@@ -4,5 +4,6 @@ class CreateWords < ActiveRecord::Migration
   		t.string :word
   		t.string :sorted_word
   		t.timestamps
+    end
   end
 end
